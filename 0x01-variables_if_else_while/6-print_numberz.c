@@ -1,5 +1,5 @@
 /*
- * File: 5-print_numberz.c
+ * File: 6-print_numberz.c
  * Auth: KARIM ELY
  */
 
