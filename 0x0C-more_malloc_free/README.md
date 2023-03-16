@@ -1,38 +1,8 @@
 0x0C. C - More malloc, free
 ===========================
 
--   By Julien Barbier
--   Weight: 1
--   Ongoing second chance project - started 09-23-2021, must end by 09-25-2021 (in about 16 hours) - you're done with 0% of tasks.
--   QA review fully automated.
+-   By ABDELKARIM ELAISSAOUY
 
-#### In a nutshell...
-
--   **Auto QA review:** 0.0/36 mandatory & 0.0/21 optional
--   **Altogether:**  **0.0%**
-    -   Mandatory: 0.0%
-    -   Optional: 0.0%
-    -   Calculation:  0.0% + (0.0% * 0.0%)  == **0.0%**
-
-Concepts
---------
-
-*For this project, students are expected to look at this concept:*
-
--   [Automatic and dynamic allocation, malloc and free](https://alx-intranet.hbtn.io/concepts/62)
-
-Resources
----------
-
-**Read or watch**:
-
--   [Do I cast the result of malloc?](https://alx-intranet.hbtn.io/rltoken/uKhvfzpF3v8Be10NCZlQtA "Do I cast the result of malloc?")
-
-**man or help**:
-
--   `exit (3)`
--   `calloc`
--   `realloc`
 
 Learning Objectives
 -------------------
