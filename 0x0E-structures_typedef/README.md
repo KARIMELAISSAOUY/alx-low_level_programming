@@ -1,8 +1,0 @@
-0x0E. C - Structures, typedef
-##0x0E-structures_typedef
-#ALX
-=============================
-
--   By ABDELKARIM ELY
-
- 
