@@ -72,7 +72,7 @@ What’s Next?
 Receive a Software Engineer Certification
 Join our global tech talent community and continue your career journey
 
-## Programme Details
+## 2023/2024
 
 
 
