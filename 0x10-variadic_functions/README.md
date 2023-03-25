@@ -18,17 +18,6 @@ variadic_functions.h | header file with function prototypes
 3-print_all.c | function that prints anything where format is a list of types of arguments passed to the function
 100-hello_coding.asm | 64-bit program in assembly that prints Hello, Coding, followed by a new line
 
-## Directories
----
-Directory Name | Description
----|---
-codingschool-low_level_programming/0x0F-variadic_functions/ | Main folder for all C files and a header file
-
-## How to compile
-gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
-
-## More Info
-All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
 
 ## Author
 KARIMELY
