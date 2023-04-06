@@ -1,35 +1,24 @@
 #include "main.h"
-
+/**
+ * binary_to_uint - converts a binary number to unsigned int
+ * @b: string containing the binary number
+ * alx
+ * Return: the converted number
+ */
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int decimal = 0;
-int str_len = 0, base = 1;
+	int i;
+	unsigned int dec_val = 0;
 
-if (!check_valid_string(b))
-return (0);
+	if (!b)
+		return (0);
 
-while (b[str_len] != '\0')
-str_len++;
+	for (i = 0; b[i]; i++)
+	{
+		if (b[i] < '0' || b[i] > '1')
+			return (0);
+		dec_val = 2 * dec_val + (b[i] - '0');
+	}
 
-while (str_len)
-{
-decimal += ((b[str_len - 1] - '0') * base);
-base *= 2;
-str_len--;
-}
-return (decimal);
-}
-
-int check_valid_string(const char *b)
-{
-if (b == NULL)
-return (0);
-
-while (*b)
-{
-if (*b != '1' && *b != '0')
-return (0);
-b++;
-}
-return (1);
+	return (dec_val);
 }
