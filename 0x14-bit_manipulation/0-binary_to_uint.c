@@ -1,7 +1,5 @@
 #include "main.h"
-/**
- * alx 
- */
+
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int decimal = 0;
@@ -22,9 +20,6 @@ str_len--;
 return (decimal);
 }
 
-/**
- * alx 
- */
 int check_valid_string(const char *b)
 {
 if (b == NULL)
