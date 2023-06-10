@@ -1,14 +1,14 @@
 #ifndef HASH_TABLES_H
 #define HASH_TABLES_H
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
-
 
 /**
- * Struct Hash_node_s --- Node of a hash table.
- * @key: The key, string.
+ * struct hash_node_s -- Node of a hash Table...
+ * @key: The key, String.
+ * Author : karim.
  * The key is unique in the HashTable.
  * @value: The value corresponding to a key.
  * @next: A pointer to the next node of the List.
@@ -21,9 +21,9 @@ typedef struct hash_node_s
 } hash_node_t;
 
 /**
- * struct hash_table_s - Hash table data structure
- * @size: The size of the array
+ * struct hash_table_s --- hash table data structure
  * @array: An array of size @size
+ * @size: The size of the array
  * Each cell of this array is a pointer to the first node of a linked list,
  * because we want our HashTable to use a Chaining collision handling
  */
@@ -45,8 +45,8 @@ void hash_table_delete(hash_table_t *ht);
  * struct shash_node_s - Node of a sorted hash table
  * @key: The key, string
  * The key is unique in the HashTable
- * @value: The value corresponding to a key
  * @next: A pointer to the next node of the List
+ * @value: The value corresponding to a key
  * @sprev: A pointer to the previous element of the sorted linked list
  * @snext: A pointer to the next element of the sorted linked list
  */
